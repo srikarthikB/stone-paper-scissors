@@ -37,6 +37,11 @@ h1{
      box-shadow: 0px 8px 15px hsla(215, 91%, 34%, 0.39);
 }
 
+.options button:focus {
+    outline: none;
+    box-shadow: 0 0 10px hsla(193, 100%, 50%, 0.6);
+}
+
 #playerDisplay, #computerDisplay{
     font-size: 2rem;
     margin-bottom: 10px;
